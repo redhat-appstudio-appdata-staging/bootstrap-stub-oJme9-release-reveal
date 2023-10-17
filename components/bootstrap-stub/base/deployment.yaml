@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: bootstrap-stub
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads-stage/jduimovich-tenant/bootstrap-stub/bootstrap-stub@sha256:6f687b5eef7c7ce190b267af4caeb51fde271f494498e0c651cbf1234ce8fbba
         imagePullPolicy: Always
         name: container-image
         ports:
